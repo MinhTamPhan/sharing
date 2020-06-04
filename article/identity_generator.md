@@ -22,7 +22,7 @@ Một trong ứng dụng phổ biên của lý thuyết toán ở trên là [Int
 
 Về cơ bản về ISBN `11` đang dùng vành $Z_{11}$ khi một con số được sinh ra nó phải thỏa điều kiện sau:
 
-![alt text](./img/ISBN.png "Logo Title Text 1")
+![alt text](../imgs/ISBN.png "Logo Title Text 1")
 
 Với $x_i$ là chữ số thứ `i` trong chuỗi được sinh ra. Đựa trên công thức này mình dùng phát sinh 1 số tài khoản như sau, chuỗi được sinh ra được chia làm 3 phần phần đầù tiên là `prefix`- chứa mã ngân hàng gồm (`2-3 chữ số` ), phần số generate ra, 1 số `checksum` cuối cùng:
 ``` javascript
