@@ -3,7 +3,7 @@ Bạn sẽ làm gì nếu được giao 1 task sau:
 
 Khi mỗi khách hàng đến ngân hàng cần tạo cho khách hàng một số tài khoản để định danh khách hàng, yêu cầu số tài khoản này không `"dễ dàng"` đoán được (predictable), số tài khoản này phải nhúng được các thông tin như mã chi nhánh mở tài khoản, và có thể dễ dàng verify sớm tránh hit xuống database để kiểm tra những tài khoản không hợp lệ.
 
-## Toàn bộ code bạn có thể down [tại đây](article/readme.md)
+## Toàn bộ code bạn có thể down [tại đây](../code/javascript)
 
 ## Nếu là Tâm được giao task này Tâm sẽ làm như thế nào ?
 Trước khi vào làm chúng ta thử phân tích một vài khía cạnh của bài toán để xem xét một vài vấn đề.
@@ -91,7 +91,7 @@ Bây giờ chúng ta xét đến một trường hợp `smart bute force` do ch�
 ở đây để đơn giản không đặt nặng quá nhiều toán nên mình chỉ cần `random` chọn các con số `[0, 9]` trong mỗi lần `generate` các con số chứ về mặt thực tiễn thì hoàn toàn có cách để sinh các con số này sao cho ít đụng độ nhât. Liên quan tới lý thuyết về `trường, vành` các bạn quan tâm có thể tìm đọc thêm những tài liệu này.
 
 ## Testing
-## Toàn bộ code bạn có thể down [tại đây](article/readme.md)
+## Toàn bộ code bạn có thể down [tại đây](../code/javascript)
 
 ### 1.Ở đây mình sẽ thử viết các hàm gen ra `1 triệu` số tài khoản trộn và `1 triệu` số tài khoản không trộng xem thử sụ khác biệt về ngẫu nhiên và số lần đụng độ như thế nào.
 thử chạy command line như sau:
